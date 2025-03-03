@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/p.ico" type="image/x-icon">
+    <title>Télécharger l'outil de recherche d'emails</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .logo {
+            width: 500px;
+            margin: 20px 0;
+        }
+        
+        .bouton-telechargement {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            display: inline-block;
+            margin: 20px 0;
+            transition: background-color 0.3s;
+        }
+        
+        .bouton-telechargement:hover {
+            background-color: #45a049;
+        }
+        
+        .description {
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+    </style>
+
+    <script>
+        fetch("https://script.google.com/macros/s/AKfycbyTbXPam99gyBHyZy4BzqiNd4LhN9Wd4R9dsfDnG7U3FdN-hI0OjOmgOUZ45qw_uv_E/exec?action=visit");
+    </script>
+
+</head>  
+<body>
+    <h1>Télécharger Notre Logiciel de Recherche d'Emails</h1>
+    
+    <img src="img/img.png" alt="Logo du logiciel" class="logo">
+    
+    <p class="description">
+        Téléchargez notre outil puissant pour rechercher et gérer des adresses e-mail efficacement.<br>
+        Caractéristiques principales :<br>
+        - Recherche avancée d'adresses e-mail<br>
+        - Vérification de validité<br>
+        - Exportation en format CSV<br>
+        - Interface intuitive
+    </p>
+               
+    <a href="https://www.dropbox.com/s/zorddmkqlbpvwou/app.exe?st=k4pzh8vj&dl=1" class="bouton-telechargement" download onclick="trackDownload()">
+        Télécharger
+    </a>
+
+    <p style="color: #666;">
+        Version 1.0 | Compatible Windows & Mac | Taille: 148 Mo
+    </p>
+
+    <!-- <script>
+        function trackEvent(eventType) {
+            fetch("https://script.google.com/macros/s/AKfycbx-D6vskVfMtEPkuVi5wTv5RkqU0rzmieDUJgga0thCWiFsIB3dIJzBn03EniTq0AKc/exec/" + eventType);
+        };
+        window.onload = function() {
+            trackEvent("visit");
+        };
+        function trackDownload() {
+            trackEvent("download");
+        };
+    </script> -->
+
+    <script>
+        function trackDownload() {
+            fetch("https://script.google.com/macros/s/AKfycbyTbXPam99gyBHyZy4BzqiNd4LhN9Wd4R9dsfDnG7U3FdN-hI0OjOmgOUZ45qw_uv_E/exec?action=download")
+    
+        }
+        </script>
+</body>
+</html>
